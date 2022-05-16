@@ -1,0 +1,139 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+/* nav bar section */
+#nav-bar {
+  margin-top: 0;
+  padding: 0;
+  background-color: #f5f3e586;
+  /* background-color: #575757; */
+}
+.hamburger-btn {
+  color: rgb(0, 0, 0);
+  font-size: 2rem;
+}
+.myNav-link {
+  cursor: pointer;
+  color: black;
+  font-weight: 500;
+}
+.nav-item {
+  margin-left: 0.5rem;
+}
+/* end of nav bar section */
+
+/* first corousel section */
+.carousel-indicators li {
+  width: 10px;
+  height: 10px;
+  border-radius: 100%;
+}
+/* end of first corousel section */
+
+/* who we are  */
+.who-we-are {
+  background: url(/img/2aa396_300dbc86c2dd4450af3430e33f049da9_mv2.jpg);
+  height: 400px;
+  margin: 3rem 0;
+}
+.my-text-box {
+  display: flex;
+  justify-content: end;
+}
+.text-box {
+  background-color: rgba(111, 111, 111, 0.587);
+  width: 28rem;
+  height: 360px;
+  margin: 1rem;
+  padding: 1rem;
+}
+.text-box h1 {
+  color: white;
+  font-weight: 700;
+}
+.text-box p {
+  color: white;
+  font-size: x-large;
+  font-weight: 400;
+}
+/* end of who we are  */
+
+/* get involved */
+.donate-btn {
+  background-color: #f03200;
+  padding: 0.8rem;
+  border-radius: 30px;
+  border: none;
+  color: white;
+}
+.join-network-btn {
+  background-color: #f8b705;
+  padding: 0.8rem;
+  border-radius: 30px;
+  border: none;
+  color: white;
+}
+.support-btn {
+  background-color: #efad4d;
+  padding: 0.8rem;
+  border-radius: 30px;
+  border: none;
+  color: white;
+}
+.volunteer-btn {
+  background-color: #116984;
+  padding: 0.8rem;
+  border-radius: 30px;
+  border: none;
+  color: white;
+}
+/* get involved */
+
+/* who we are 2  */
+.who-we-are2 {
+  background: url(/img/2aa396_16e1bf3357394eb89f87bc147bd92c5a_mv2.jpg);
+  height: 286px;
+  margin: 3rem 0;
+}
+.my-text-box2 {
+  display: flex;
+  justify-content: end;
+}
+.text-box2 {
+  background-color: rgba(111, 111, 111, 0.587);
+  width: 28rem;
+  height: 260px;
+  margin: 1rem;
+  padding: 1rem;
+}
+.text-box2 p {
+  color: white;
+  font-weight: 400;
+}
+/* end of who we are 2 */
+
+.dropdown-menu {
+  border: none;
+  background-color: white;
+}
+
+.socials {
+  display: flex;
+}
+.socials li {
+  font-size: 1.5rem;
+  list-style: none;
+  margin-left: 1rem;
+}
+
+.foot {
+  margin-top: 1.5rem;
+  padding: 0.5rem;
+  background-color: #000000b1;
+  color: white;
+}
+.foot {
+  margin-bottom: 0;
+}
