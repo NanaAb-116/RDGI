@@ -10,18 +10,28 @@
   background-color: #f5f3e586;
   /* background-color: #575757; */
 }
+.navbar-toggler {
+  border: none;
+  padding-right: 1rem;
+}
 .hamburger-btn {
   color: rgb(0, 0, 0);
   font-size: 2rem;
 }
+#basic-nav-dropdown {
+  color: black;
+  padding: 0;
+  border: none !important;
+}
 .myNav-link {
-  cursor: pointer;
   color: black;
   font-weight: 500;
 }
-.nav-item {
-  margin-left: 0.5rem;
+.myNav-link:hover {
+  text-decoration: none;
+  color: black;
 }
+
 /* end of nav bar section */
 
 /* first corousel section */
@@ -29,6 +39,9 @@
   width: 10px;
   height: 10px;
   border-radius: 100%;
+}
+.visually-hidden {
+  display: none;
 }
 /* end of first corousel section */
 
@@ -45,8 +58,8 @@
 .text-box {
   background-color: rgba(111, 111, 111, 0.587);
   width: 28rem;
-  height: 360px;
-  margin: 1rem;
+  height: 390px;
+  margin: 0.25rem 1rem;
   padding: 1rem;
 }
 .text-box h1 {
@@ -104,13 +117,16 @@
 .text-box2 {
   background-color: rgba(111, 111, 111, 0.587);
   width: 28rem;
-  height: 260px;
-  margin: 1rem;
-  padding: 1rem;
+  height: 278px;
+  margin: 0.25rem 1rem;
+  padding: 0.5rem;
 }
 .text-box2 p {
   color: white;
   font-weight: 400;
+}
+.un-button:hover {
+  text-decoration: none;
 }
 /* end of who we are 2 */
 
@@ -127,6 +143,9 @@
   list-style: none;
   margin-left: 1rem;
 }
+.socials a {
+  color: white;
+}
 
 .foot {
   margin-top: 1.5rem;
@@ -136,4 +155,90 @@
 }
 .foot {
   margin-bottom: 0;
+}
+/* videos */
+.player-wrapper {
+  position: relative;
+  padding-top: 56.25%; /* Player ratio: 100 / (1280 / 720) */
+}
+
+.react-player {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+/* About */
+.abt-us {
+  border-radius: 32px;
+}
+.support-mission {
+  width: 15rem;
+  border: 0;
+  border-radius: 8px;
+  padding: 1rem;
+  background-color: #d9544f;
+  color: white;
+}
+
+.sam1 {
+  border-radius: 25%;
+}
+/* list of rare diseases */
+.list-o-rd {
+  min-height: 90vh;
+}
+.rd-list {
+  padding: 1rem;
+  border: none;
+  color: white;
+  background-color: #61ce70;
+  border-radius: 8px;
+}
+/* orphan zone */
+#orphan-zone {
+  min-height: 90vh;
+}
+.orphan-zone h1 {
+  font-weight: 700;
+  background-color: #f6f0f0;
+}
+/* URD trust fund  */
+.URD-bottom {
+  background-color: #f6f0f0;
+}
+.aa {
+  overflow: hidden;
+}
+.URD-bottom img {
+  transition: 2s all linear;
+}
+.URD-bottom img:hover {
+  transform: scale(1.1);
+  transition: 2s all linear;
+}
+/* networks */
+#networks {
+  min-height: 90vh;
+}
+#networks a {
+  color: black;
+}
+#networks a:hover {
+  color: black;
+  text-decoration: none;
+}
+.networkEmail {
+  color: black;
+}
+.networkEmail:hover {
+  color: black;
+  text-decoration: none;
+}
+.network-img {
+  max-height: 30rem;
+  margin-top: -5rem;
+}
+/* contact section */
+#contact-section {
+  min-height: 90vh;
 }
